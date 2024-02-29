@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR CV</title>
+  <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body>
+  <div id="contenedor"></div>
+  <h2>Descargar Mi CV </h2>
+  <script>
+   new QRCode(document.getElementById("contenedor"),"https://raw.githubusercontent.com/SebastianGH1/QRCV/main/cv_sebastian.pdf") 
+  </script>
+</body>
+</html>
